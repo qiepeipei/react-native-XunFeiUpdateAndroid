@@ -2,7 +2,7 @@
 react native 讯飞自动更新
 ## npm install react-native-xunfeiupdate
 ### 使用实例
-	var Update = require('react-native-XunFeiUpdateAndroid');
+	var Update = require('react-native-xunfeiupdate');
 	
 	let confg = {
       DebugMode:false,  //调试模式: true开启调试模式,false不开启
