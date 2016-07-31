@@ -67,5 +67,5 @@ react native 讯飞自动更新
     }
     ```
 
-![Mou icon1](./assets/Image1.png)
+![Mou icon1](/assets/Image1.png)
 
