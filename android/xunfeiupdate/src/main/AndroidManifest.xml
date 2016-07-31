@@ -1,0 +1,24 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.xunfeiupdate">
+
+
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+
+        <meta-data android:name="IFLYTEK_APPKEY" android:value="''"/>
+        <meta-data android:name="IFLYTEK_CHANNEL" android:value=""/>
+
+        <activity android:name ="com.iflytek.autoupdate.IFlytekUpdateDialog"/>
+        <service android:name="com.iflytek.autoupdate.IFlytekDownloadService"/>
+
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET"> </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"> </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"> </uses-permission>
+
+</manifest>
