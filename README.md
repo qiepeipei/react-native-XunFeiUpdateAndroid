@@ -66,6 +66,6 @@ react native 讯飞自动更新
 
     }
     ```
-    
-![Mou icon1](http://note.youdao.com/yws/api/personal/file/WEBae00e80280da84d56ec012cf762d479a?method=download&shareKey=cf261e3805e2b3682d79c1868332a08f)
+
+![Mou icon1](./assets/Image1.png)
 
