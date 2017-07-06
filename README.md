@@ -28,12 +28,12 @@ react native 讯飞自动更新
     });
 
 ####android配置
-1. 设置 `android/setting.gradle` 注意: 如果node_modules前面有空格记得删除,不然无法读取lib
+1. 设置 `android/setting.gradle`
 
     ```
     ...
 	include ':xunfeiupdate'
-	project(':xunfeiupdate').projectDir = new File(rootProject.projectDir, '../	node_modules/react-native-xunfeiupdate/android/xunfeiupdate')
+	project(':xunfeiupdate').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-xunfeiupdate/android/xunfeiupdate')
     ```
 
 2. 设置 `android/app/build.gradle`
